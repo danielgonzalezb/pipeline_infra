@@ -13,6 +13,7 @@ Resources:
             Principal:
               Service:
                 - codepipeline.amazonaws.com
+                
             Action:
               - sts:AssumeRole
       Policies:
